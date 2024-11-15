@@ -1,7 +1,8 @@
+import logo from '../assets/images/Logo.svg'
 export default function Footer(){
     return(
-        <footer>
-            <img src="" alt="this footer logo" width="200" height="150"/>
+        <footer className="footer-section">
+            <img src={logo} alt="this footer logo"/>
             <article>
                 <h3>Doormat navigation</h3>
                 <ul>

@@ -1,10 +1,12 @@
 import Nav from "./nav"
+import Logo from '../assets/images/Logo .svg'
 export default function Header(){
     return(
         <header>
-            <img src="" alt="This is logo" width="200" height="150"></img>
-            <h1>This is from Header....!</h1>
-            <Nav/>
+            <div className="head-section">
+                <img className="logo" src={Logo} alt="This is logo"/>
+                <Nav/>
+            </div>
         </header>
     )
 }
